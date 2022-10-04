@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _date_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./date.js */ \"./js/date.js\");\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\nalert('index.js');\r\n\r\n\r\ndocument.querySelector('.js-content').innerHTML = `It's ${ (0,_date_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])() }`;\n\n//# sourceURL=webpack://bootstrap_project/./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _date_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./date.js */ \"./js/date.js\");\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _images_image_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/image.jpeg */ \"./images/image.jpeg\");\nalert('index.js');\r\n\r\n\r\n\r\n// Display the image\r\nconst imageElement = document.createElement('img');\r\nimageElement.src = _images_image_jpeg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]; \r\nimageElement.alt = 'Always provide a descriptive alt text.';\r\ndocument.body.append(imageElement);\r\n// Print the current time\r\ndocument.querySelector('.js-content').innerHTML = `It's ${ (0,_date_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])() }`;\n\n//# sourceURL=webpack://bootstrap_project/./js/index.js?");
 
 /***/ }),
 
@@ -57,6 +57,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://bootstrap_project/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./images/image.jpeg":
+/*!***************************!*\
+  !*** ./images/image.jpeg ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"ec38cbc39986b776d170d830e3e41b47.jpeg\");\n\n//# sourceURL=webpack://bootstrap_project/./images/image.jpeg?");
 
 /***/ }),
 
@@ -195,6 +205,11 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "dist/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
