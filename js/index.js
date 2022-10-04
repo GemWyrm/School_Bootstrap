@@ -2,6 +2,8 @@ alert('index.js');
 import getDateString from './date.js';
 import '../styles/styles.scss';
 import image from '../images/image.jpeg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 // Display the image
 const imageElement = document.createElement('img');
 imageElement.src = image; 
