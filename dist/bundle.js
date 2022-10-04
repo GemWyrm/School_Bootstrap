@@ -1,0 +1,1 @@
+(()=>{"use strict";alert("index.js"),document.querySelector(".js-content").innerHTML=`It's ${(new Date).toUTCString()}`})();
