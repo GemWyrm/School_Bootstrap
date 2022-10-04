@@ -5,6 +5,7 @@ import image from '../images/image.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import '@fortawesome/fontawesome-free/js/all';
+import '../index.html';
 // Display the image
 const imageElement = document.createElement('img');
 imageElement.src = image; 
