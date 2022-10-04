@@ -6,9 +6,15 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: 'dist/'
-  },  
+  },
   mode: 'development',
+  devServer: {
+    static: path.resolve(__dirname, './dist'),
+    devMiddleware: {
+    index: 'index.html'
+    },
+    port: 8000
+  },  
   module: {
     rules: [
       {
