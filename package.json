@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --hot"
+    "dev": "webpack-dev-server --hot",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "GemWyrm.github.io/School_Bootstrap",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +16,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
